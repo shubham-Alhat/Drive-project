@@ -20,3 +20,18 @@
 ```bash
 npm i express-validator
 ```
+
+### Bcrypt
+
+**we dont store password in string format in database but in hash form.**
+**to store password in the #form in database**
+
+```bash
+npm install bcrypt
+```
+
+### To generate token, we need `jsonwebtoken` package
+
+```bash
+npm install jsonwebtoken
+```

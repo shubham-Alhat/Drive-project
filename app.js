@@ -1,5 +1,10 @@
 const express = require("express");
 const userRouter = require("./routes/user.routes");
+const dotenv = require("dotenv");
+dotenv.config(); // now we can access .env variables.
+
+const connectToDb = require("./config/db");
+connectToDb(); // calling the function
 
 // creating app
 const app = express();
